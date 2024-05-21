@@ -8,7 +8,7 @@ public class Ball extends JComponent
 
     Ball()
     {
-        this.position = new Point(1400/2 -1300/2,800/2 - (650/2)-25);
+        this.position = new Point(1400/2 -radius,800/2-radius);
         
     }
 

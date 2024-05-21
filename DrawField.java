@@ -37,7 +37,8 @@ public class DrawField extends JPanel {
         g2d.fillRect((int)(startPoint.getX())+1300-13, (int)(startPoint.getY() + 275), 10, 100);
 
         g2d.setColor(new Color(0,0,255));
-        g.fillOval((int)(ball.getPosition().getX()), (int)(ball.getPosition().getY()), ball.getRadius(), ball.getRadius());
+        g2d.fillOval((int)(startPoint.getX() + witdhField/2 - ball.getRadius()/2), (int)(startPoint.getY() + heightField/2 - ball.getRadius()/2), ball.getRadius(), ball.getRadius());
+        
     }
     
 }
