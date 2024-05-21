@@ -3,12 +3,12 @@ import javax.swing.*;
 
 public class Ball extends JComponent 
 {
-    private Point position = new Point(1400/2 -1300/2,800/2 - (650/2)-25);;
+    private Point position;
     private int radius = 20;
 
     Ball()
     {
-        this.position = new Point();
+        this.position = new Point(1400/2 -1300/2,800/2 - (650/2)-25);
         
     }
 
